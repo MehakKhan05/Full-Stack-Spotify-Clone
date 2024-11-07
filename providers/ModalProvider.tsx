@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import AuthModal from "@/components/AuthModal";
+import UploadModal from "@/components/UploadModal";
 
 interface ModalProviderProps {
     children: React.ReactNode;
@@ -21,6 +22,7 @@ const ModalProvider: React.FC<ModalProviderProps> = ({ children }) => {
     return (
         <>
             <AuthModal />
+            <UploadModal />
             {children}
         </>
     );
