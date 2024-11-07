@@ -38,7 +38,7 @@ This project is a Spotify clone built with [Next.js](https://nextjs.org/) using 
    ```bash
    git clone https://github.com/your-username/full-stack-spotify-clone.git
 
-```
+   ```
 
 2. **Install dependencies**: 
 
@@ -46,7 +46,7 @@ This project is a Spotify clone built with [Next.js](https://nextjs.org/) using 
     
     npm install 
 
-    ```
+ ```
 3. **Environment Variables**: 
 
 Create a .env.local file in the root of your project and add your Supabase credentials and other environment variables. 
@@ -57,7 +57,7 @@ Create a .env.local file in the root of your project and add your Supabase crede
     
     npm run dev
 
-    ```
+ ```
 5. **Start Editing**:
 
 The main entry point for pages is in the app/pages.tsx. Edits here will reflect immediately thanks to Next.js' hot-reloading feature.
